@@ -8,7 +8,7 @@ import "../styles/Result.css";
 class SearchResultContainer extends Component {
   state = {
     result: [],
-    filter: "firstName",
+    filter: "",
     filterBy: "lastName",
     currentSort: "default",
     sortField: ""
