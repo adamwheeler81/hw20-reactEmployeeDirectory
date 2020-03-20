@@ -5,7 +5,7 @@ function ResultList(props) {
     <table className="table">
 
       {/* <ul className="list-group"> */}
-      {props.results.map(result => (
+      {props.results.map(results => (
         <table style="width:100%">
           <tr>
             <th>Firstname</th>

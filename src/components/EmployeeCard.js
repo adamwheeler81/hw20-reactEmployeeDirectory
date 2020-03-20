@@ -2,7 +2,7 @@ import React from "react";
 
 function EmployeeCard(props) {
   return (
-    // <div className="row">
+    <tbody>
     <tr>
       {/* <div className= "col-2"> */}
       {/* <td > */}
@@ -22,6 +22,7 @@ function EmployeeCard(props) {
       <td >{props.phone}</td>
       {/* </div> */}
    </tr>
+   </tbody>
   //  </div>
   );
 }
